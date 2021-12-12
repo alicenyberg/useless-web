@@ -10,10 +10,28 @@
   </head>
   <body>
     <h1>pet the corgi!!</h1>
-    <div class="corgi-container">
-      <img class="corgi" src="./images/corgi2.png" alt="a cute beige corgi" />
+
+    <div class="corgiContainer">
+      <button class="btnCounter">
+        <p>number of pats:</p>
+        <p class="counterText"></p>
+        <img
+          class="corgiImg"
+          src="./images/corgi2.png"
+          alt="a cute beige corgi"
+        />
+      </button>
     </div>
-    <div class="corgi-counter">0</div>
+    <p class="message"></p>
+    <div class="corgiBark">
+      <audio class="corgiAudio">
+        <source src="/audio/woof.mp3" type="audio/mp2" />
+      </audio>
+    </div>
+    <p class="keyText">psst, press any key to make the corgi spin!</p>
+    <footer>
+      <p>Made by Alice Nyberg</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
