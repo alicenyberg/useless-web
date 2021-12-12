@@ -17,15 +17,15 @@ button.addEventListener('click', () => {
   }
 });
 
-function lightBackground() {
+function blueBackground() {
   if (window.scrollY > window.innerHeight / 6) {
-    document.body.classList.add('light');
+    document.body.classList.add('blue');
   } else {
-    document.body.classList.remove('light');
+    document.body.classList.remove('blue');
   }
 }
 
-window.addEventListener('scroll', lightBackground);
+window.addEventListener('scroll', blueBackground);
 
 const img = document.querySelector('.corgiImg');
 window.addEventListener('keypress', function (event) {

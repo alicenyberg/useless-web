@@ -67,7 +67,7 @@ p {
   transition: 1.2s ease-in-out;
 }
 
-.light {
+.blue {
   background-color: var(--background-light);
 }
 
