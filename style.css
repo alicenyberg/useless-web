@@ -5,6 +5,7 @@
 
 body {
   background-color: var(--background-color);
+  margin: 0;
 }
 
 @font-face {
@@ -15,21 +16,65 @@ body {
 }
 
 h1 {
+  padding-top: 120px;
   margin: 60px;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: var(--font-main);
   color: var(--h1-color);
+  font-size: var(--h1-font-size);
 }
 
-.corgi-container {
-  margin-top: 100px;
+p {
+  font-family: var(--font-main);
+  color: var(--h1-color);
+  font-size: var(--p-font-size);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.corgiContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.corgiContainer img {
+  height: 350px;
+  width: 350px;
+}
+
+.btnCounter {
+  background-color: transparent;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.corgi-container img {
-  height: 400px;
-  width: 400px;
+.message {
+  display: flex;
+  justify-content: center;
+}
+.keyText {
+  font-size: var(--p-small);
+}
+
+.rotate {
+  transform: rotate(360deg) scale(1.2);
+  transition: 1.2s ease-in-out;
+}
+
+.light {
+  background-color: var(--background-light);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  padding-top: 300%;
 }

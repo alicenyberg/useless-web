@@ -1,5 +1,9 @@
 :root {
   --font-main: Source Code Pro;
-  --background-color: rgb(86, 110, 155);
+  --background-color: rgb(14, 75, 32);
+  --background-light: rgb(15, 17, 121);
   --h1-color: #fef6d6;
+  --h1-font-size: 64px;
+  --p-font-size: 24px;
+  --p-small: 18px;
 }
