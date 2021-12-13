@@ -59,6 +59,7 @@ p {
 .message {
   display: flex;
   justify-content: center;
+  margin: 20px;
 }
 .keyText {
   font-size: var(--p-small);
@@ -66,7 +67,7 @@ p {
 }
 
 .rotate {
-  transform: rotate(360deg) scale(1.05);
+  transform: rotate(360deg) scale(1.1);
   transition: 1.2s ease-in-out;
 }
 
