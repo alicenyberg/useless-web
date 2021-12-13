@@ -28,13 +28,15 @@ function blueBackground() {
 window.addEventListener('scroll', blueBackground);
 
 const img = document.querySelector('.corgiImg');
-window.addEventListener('keypress', function (event) {
+window.addEventListener('mousedown', function (event) {
   img.classList.toggle('rotate');
 });
 
-window.addEventListener('touchstart', function (event) {
+/*
+window.addEventListener('mousedown', function (event) {
   img.classList.toggle('rotate');
 });
+*/
 
 const corgiInfos = ['my name is betty ', 'and i love hugs! '];
 const corgiName = document.getElementById('corgiName');
