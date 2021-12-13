@@ -18,7 +18,7 @@ button.addEventListener('click', () => {
 });
 
 function blueBackground() {
-  if (window.scrollY > window.innerHeight / 6) {
+  if (window.scrollY > window.innerHeight / 8) {
     document.body.classList.add('blue');
   } else {
     document.body.classList.remove('blue');
@@ -30,4 +30,11 @@ window.addEventListener('scroll', blueBackground);
 const img = document.querySelector('.corgiImg');
 window.addEventListener('keypress', function (event) {
   img.classList.toggle('rotate');
+});
+
+const corgiInfos = ['my name is betty ', 'and i love hugs! '];
+const corgiName = document.getElementById('corgiName');
+
+corgiInfos.forEach((corgiInfo) => {
+  corgiName.textContent += corgiInfo;
 });
