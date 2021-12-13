@@ -32,13 +32,7 @@ window.addEventListener('mousedown', function (event) {
   img.classList.toggle('rotate');
 });
 
-/*
-window.addEventListener('mousedown', function (event) {
-  img.classList.toggle('rotate');
-});
-*/
-
-const corgiInfos = ['my name is betty ', 'and i love hugs! '];
+const corgiInfos = ['my name is betty ', 'and i love cuddles! '];
 const corgiName = document.getElementById('corgiName');
 
 corgiInfos.forEach((corgiInfo) => {
