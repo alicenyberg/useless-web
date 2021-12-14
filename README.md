@@ -1,12 +1,15 @@
-INSERT MANDATORY GIF
+<img src="https://media.giphy.com/media/eeUJaTwsHh3tswkaYm/giphy.gif">
 
-# Project Title
+# Pet the corgi!
+
+this is a totally useless website where you can pet a corgi and make it spin!
 
 https://petthecorgi.netlify.app/
 
 # Installation
 
-Add the installation instructions.
+1. Clone the project and open it with your code editor.
+2. Open index.html with live server/live preview. 
 
 # Code Review
 
@@ -20,5 +23,5 @@ Add the installation instructions.
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Agnes Skönvall
+2. Amanda Hultén
